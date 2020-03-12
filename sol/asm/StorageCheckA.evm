@@ -1,0 +1,1816 @@
+    /* "StorageCheckA.sol":107:3247  contract StorageCheckA{... */
+  mstore(0x40, 0x80)
+  callvalue
+    /* "--CODEGEN--":8:17   */
+  dup1
+    /* "--CODEGEN--":5:7   */
+  iszero
+  tag_1
+  jumpi
+    /* "--CODEGEN--":30:31   */
+  0x00
+    /* "--CODEGEN--":27:28   */
+  dup1
+    /* "--CODEGEN--":20:32   */
+  revert
+    /* "--CODEGEN--":5:7   */
+tag_1:
+    /* "StorageCheckA.sol":107:3247  contract StorageCheckA{... */
+  pop
+  dataSize(sub_0)
+  dup1
+  dataOffset(sub_0)
+  0x00
+  codecopy
+  0x00
+  return
+stop
+
+sub_0: assembly {
+        /* "StorageCheckA.sol":107:3247  contract StorageCheckA{... */
+      mstore(0x40, 0x80)
+      callvalue
+        /* "--CODEGEN--":8:17   */
+      dup1
+        /* "--CODEGEN--":5:7   */
+      iszero
+      tag_1
+      jumpi
+        /* "--CODEGEN--":30:31   */
+      0x00
+        /* "--CODEGEN--":27:28   */
+      dup1
+        /* "--CODEGEN--":20:32   */
+      revert
+        /* "--CODEGEN--":5:7   */
+    tag_1:
+        /* "StorageCheckA.sol":107:3247  contract StorageCheckA{... */
+      pop
+      jumpi(tag_2, lt(calldatasize, 0x04))
+      shr(0xe0, calldataload(0x00))
+      dup1
+      0x9f5c7603
+      gt
+      tag_10
+      jumpi
+      dup1
+      0x9f5c7603
+      eq
+      tag_6
+      jumpi
+      dup1
+      0xba7260ae
+      eq
+      tag_7
+      jumpi
+      dup1
+      0xec52e549
+      eq
+      tag_8
+      jumpi
+      dup1
+      0xf84f107d
+      eq
+      tag_9
+      jumpi
+      jump(tag_2)
+    tag_10:
+      dup1
+      0x2102818f
+      eq
+      tag_3
+      jumpi
+      dup1
+      0x5d022512
+      eq
+      tag_4
+      jumpi
+      dup1
+      0x9198c2f1
+      eq
+      tag_5
+      jumpi
+    tag_2:
+      0x00
+      dup1
+      revert
+        /* "StorageCheckA.sol":2373:2716  function updateWithStorage( uint256 _at, uint256 _val256 ) public{... */
+    tag_3:
+      tag_11
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x40
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_12
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_12:
+        /* "StorageCheckA.sol":2373:2716  function updateWithStorage( uint256 _at, uint256 _val256 ) public{... */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_13
+      jump	// in
+    tag_11:
+      stop
+        /* "StorageCheckA.sol":625:711  function getTotalData() public view returns( uint256 ){... */
+    tag_4:
+      tag_14
+      tag_15
+      jump	// in
+    tag_14:
+      mload(0x40)
+      dup1
+      dup3
+      dup2
+      mstore
+      0x20
+      add
+      swap2
+      pop
+      pop
+      mload(0x40)
+      dup1
+      swap2
+      sub
+      swap1
+      return
+        /* "StorageCheckA.sol":2877:3245  function updateWithMemory( uint256 _at, uint256 _val256 ) public{... */
+    tag_5:
+      tag_16
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x40
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_17
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_17:
+        /* "StorageCheckA.sol":2877:3245  function updateWithMemory( uint256 _at, uint256 _val256 ) public{... */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_18
+      jump	// in
+    tag_16:
+      stop
+        /* "StorageCheckA.sol":1359:1802  function createWithStorage( uint256 _val256 ) public{... */
+    tag_6:
+      tag_19
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x20
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_20
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_20:
+        /* "StorageCheckA.sol":1359:1802  function createWithStorage( uint256 _val256 ) public{... */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_21
+      jump	// in
+    tag_19:
+      stop
+        /* "StorageCheckA.sol":474:497  MyData[] public arrData */
+    tag_7:
+      tag_22
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x20
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_23
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_23:
+        /* "StorageCheckA.sol":474:497  MyData[] public arrData */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_24
+      jump	// in
+    tag_22:
+      mload(0x40)
+      dup1
+      dup6
+      0xffffffffffffffffffffffffffffffff
+      and
+      0xffffffffffffffffffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      dup5
+      0xffffffffffffffff
+      and
+      0xffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      dup4
+      0xffffffff
+      and
+      0xffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      dup3
+      0xffffffff
+      and
+      0xffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      swap5
+      pop
+      pop
+      pop
+      pop
+      pop
+      mload(0x40)
+      dup1
+      swap2
+      sub
+      swap1
+      return
+        /* "StorageCheckA.sol":1930:2225  function updateDirect( uint256 _at, uint256 _val256 ) public{... */
+    tag_8:
+      tag_25
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x40
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_26
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_26:
+        /* "StorageCheckA.sol":1930:2225  function updateDirect( uint256 _at, uint256 _val256 ) public{... */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_27
+      jump	// in
+    tag_25:
+      stop
+        /* "StorageCheckA.sol":868:1196  function createWithMemory( uint256 _val256 ) public{... */
+    tag_9:
+      tag_28
+      0x04
+      dup1
+      calldatasize
+      sub
+        /* "--CODEGEN--":13:15   */
+      0x20
+        /* "--CODEGEN--":8:11   */
+      dup2
+        /* "--CODEGEN--":5:16   */
+      lt
+        /* "--CODEGEN--":2:4   */
+      iszero
+      tag_29
+      jumpi
+        /* "--CODEGEN--":29:30   */
+      0x00
+        /* "--CODEGEN--":26:27   */
+      dup1
+        /* "--CODEGEN--":19:31   */
+      revert
+        /* "--CODEGEN--":2:4   */
+    tag_29:
+        /* "StorageCheckA.sol":868:1196  function createWithMemory( uint256 _val256 ) public{... */
+      dup2
+      add
+      swap1
+      dup1
+      dup1
+      calldataload
+      swap1
+      0x20
+      add
+      swap1
+      swap3
+      swap2
+      swap1
+      pop
+      pop
+      pop
+      tag_30
+      jump	// in
+    tag_28:
+      stop
+        /* "StorageCheckA.sol":2373:2716  function updateWithStorage( uint256 _at, uint256 _val256 ) public{... */
+    tag_13:
+        /* "StorageCheckA.sol":2460:2461  0 */
+      0x00
+        /* "StorageCheckA.sol":2453:2456  _at */
+      dup3
+        /* "StorageCheckA.sol":2453:2461  _at >= 0 */
+      lt
+      iszero
+        /* "StorageCheckA.sol":2453:2485  _at >= 0 && _at < arrData.length */
+      dup1
+      iszero
+      tag_32
+      jumpi
+      pop
+        /* "StorageCheckA.sol":2471:2478  arrData */
+      0x00
+        /* "StorageCheckA.sol":2471:2485  arrData.length */
+      dup1
+      sload
+      swap1
+      pop
+        /* "StorageCheckA.sol":2465:2468  _at */
+      dup3
+        /* "StorageCheckA.sol":2465:2485  _at < arrData.length */
+      lt
+        /* "StorageCheckA.sol":2453:2485  _at >= 0 && _at < arrData.length */
+    tag_32:
+        /* "StorageCheckA.sol":2444:2487  require( _at >= 0 && _at < arrData.length ) */
+      tag_33
+      jumpi
+      0x00
+      dup1
+      revert
+    tag_33:
+        /* "StorageCheckA.sol":2494:2520  MyData storage storageData */
+      0x00
+        /* "StorageCheckA.sol":2523:2530  arrData */
+      dup1
+        /* "StorageCheckA.sol":2531:2534  _at */
+      dup4
+        /* "StorageCheckA.sol":2523:2535  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_34
+      jumpi
+      invalid
+    tag_34:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2494:2535  MyData storage storageData = arrData[_at] */
+      swap1
+      pop
+        /* "StorageCheckA.sol":2572:2579  _val256 */
+      dup2
+        /* "StorageCheckA.sol":2541:2552  storageData */
+      dup2
+        /* "StorageCheckA.sol":2541:2561  storageData.serialNo */
+      0x00
+      add
+      0x00
+        /* "StorageCheckA.sol":2541:2580  storageData.serialNo = uint128(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2615:2622  _val256 */
+      dup2
+        /* "StorageCheckA.sol":2586:2597  storageData */
+      dup2
+        /* "StorageCheckA.sol":2586:2605  storageData.ownerId */
+      0x00
+      add
+      0x10
+        /* "StorageCheckA.sol":2586:2623  storageData.ownerId = uint64(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2659:2666  _val256 */
+      dup2
+        /* "StorageCheckA.sol":2629:2640  storageData */
+      dup2
+        /* "StorageCheckA.sol":2629:2649  storageData.maxPrice */
+      0x00
+      add
+      0x18
+        /* "StorageCheckA.sol":2629:2667  storageData.maxPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2703:2710  _val256 */
+      dup2
+        /* "StorageCheckA.sol":2673:2684  storageData */
+      dup2
+        /* "StorageCheckA.sol":2673:2693  storageData.minPrice */
+      0x00
+      add
+      0x1c
+        /* "StorageCheckA.sol":2673:2711  storageData.minPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2373:2716  function updateWithStorage( uint256 _at, uint256 _val256 ) public{... */
+      pop
+      pop
+      pop
+      jump	// out
+        /* "StorageCheckA.sol":625:711  function getTotalData() public view returns( uint256 ){... */
+    tag_15:
+        /* "StorageCheckA.sol":670:677  uint256 */
+      0x00
+        /* "StorageCheckA.sol":692:699  arrData */
+      dup1
+        /* "StorageCheckA.sol":692:706  arrData.length */
+      dup1
+      sload
+      swap1
+      pop
+        /* "StorageCheckA.sol":685:706  return arrData.length */
+      swap1
+      pop
+        /* "StorageCheckA.sol":625:711  function getTotalData() public view returns( uint256 ){... */
+      swap1
+      jump	// out
+        /* "StorageCheckA.sol":2877:3245  function updateWithMemory( uint256 _at, uint256 _val256 ) public{... */
+    tag_18:
+        /* "StorageCheckA.sol":2963:2964  0 */
+      0x00
+        /* "StorageCheckA.sol":2956:2959  _at */
+      dup3
+        /* "StorageCheckA.sol":2956:2964  _at >= 0 */
+      lt
+      iszero
+        /* "StorageCheckA.sol":2956:2988  _at >= 0 && _at < arrData.length */
+      dup1
+      iszero
+      tag_38
+      jumpi
+      pop
+        /* "StorageCheckA.sol":2974:2981  arrData */
+      0x00
+        /* "StorageCheckA.sol":2974:2988  arrData.length */
+      dup1
+      sload
+      swap1
+      pop
+        /* "StorageCheckA.sol":2968:2971  _at */
+      dup3
+        /* "StorageCheckA.sol":2968:2988  _at < arrData.length */
+      lt
+        /* "StorageCheckA.sol":2956:2988  _at >= 0 && _at < arrData.length */
+    tag_38:
+        /* "StorageCheckA.sol":2947:2990  require( _at >= 0 && _at < arrData.length ) */
+      tag_39
+      jumpi
+      0x00
+      dup1
+      revert
+    tag_39:
+        /* "StorageCheckA.sol":2997:3021  MyData memory memoryData */
+      tag_40
+      tag_41
+      jump	// in
+    tag_40:
+        /* "StorageCheckA.sol":3024:3031  arrData */
+      0x00
+        /* "StorageCheckA.sol":3032:3035  _at */
+      dup4
+        /* "StorageCheckA.sol":3024:3036  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_42
+      jumpi
+      invalid
+    tag_42:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2997:3036  MyData memory memoryData = arrData[_at] */
+      mload(0x40)
+      dup1
+      0x80
+      add
+      0x40
+      mstore
+      swap1
+      dup2
+      0x00
+      dup3
+      add
+      0x00
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffffffffffffffffffff
+      and
+      0xffffffffffffffffffffffffffffffff
+      and
+      0xffffffffffffffffffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      0x00
+      dup3
+      add
+      0x10
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffff
+      and
+      0xffffffffffffffff
+      and
+      0xffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      0x00
+      dup3
+      add
+      0x18
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffff
+      and
+      0xffffffff
+      and
+      0xffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+      0x00
+      dup3
+      add
+      0x1c
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffff
+      and
+      0xffffffff
+      and
+      0xffffffff
+      and
+      dup2
+      mstore
+      pop
+      pop
+      swap1
+      pop
+        /* "StorageCheckA.sol":3072:3079  _val256 */
+      dup2
+        /* "StorageCheckA.sol":3042:3052  memoryData */
+      dup2
+        /* "StorageCheckA.sol":3042:3061  memoryData.serialNo */
+      0x00
+      add
+        /* "StorageCheckA.sol":3042:3080  memoryData.serialNo = uint128(_val256) */
+      swap1
+      0xffffffffffffffffffffffffffffffff
+      and
+      swap1
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      and
+      dup2
+      mstore
+      pop
+      pop
+        /* "StorageCheckA.sol":3114:3121  _val256 */
+      dup2
+        /* "StorageCheckA.sol":3086:3096  memoryData */
+      dup2
+        /* "StorageCheckA.sol":3086:3104  memoryData.ownerId */
+      0x20
+      add
+        /* "StorageCheckA.sol":3086:3122  memoryData.ownerId = uint64(_val256) */
+      swap1
+      0xffffffffffffffff
+      and
+      swap1
+      dup2
+      0xffffffffffffffff
+      and
+      dup2
+      mstore
+      pop
+      pop
+        /* "StorageCheckA.sol":3157:3164  _val256 */
+      dup2
+        /* "StorageCheckA.sol":3128:3138  memoryData */
+      dup2
+        /* "StorageCheckA.sol":3128:3147  memoryData.maxPrice */
+      0x40
+      add
+        /* "StorageCheckA.sol":3128:3165  memoryData.maxPrice = uint32(_val256) */
+      swap1
+      0xffffffff
+      and
+      swap1
+      dup2
+      0xffffffff
+      and
+      dup2
+      mstore
+      pop
+      pop
+        /* "StorageCheckA.sol":3200:3207  _val256 */
+      dup2
+        /* "StorageCheckA.sol":3171:3181  memoryData */
+      dup2
+        /* "StorageCheckA.sol":3171:3190  memoryData.minPrice */
+      0x60
+      add
+        /* "StorageCheckA.sol":3171:3208  memoryData.minPrice = uint32(_val256) */
+      swap1
+      0xffffffff
+      and
+      swap1
+      dup2
+      0xffffffff
+      and
+      dup2
+      mstore
+      pop
+      pop
+        /* "StorageCheckA.sol":3230:3240  memoryData */
+      dup1
+        /* "StorageCheckA.sol":3215:3222  arrData */
+      0x00
+        /* "StorageCheckA.sol":3223:3226  _at */
+      dup5
+        /* "StorageCheckA.sol":3215:3227  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_44
+      jumpi
+      invalid
+    tag_44:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":3215:3240  arrData[_at] = memoryData */
+      0x00
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x00)
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x20
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x10)
+      dup2
+      sload
+      dup2
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x40
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x18)
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x60
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x1c)
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      swap1
+      pop
+      pop
+        /* "StorageCheckA.sol":2877:3245  function updateWithMemory( uint256 _at, uint256 _val256 ) public{... */
+      pop
+      pop
+      pop
+      jump	// out
+        /* "StorageCheckA.sol":1359:1802  function createWithStorage( uint256 _val256 ) public{... */
+    tag_21:
+        /* "StorageCheckA.sol":1515:1516  1 */
+      0x01
+        /* "StorageCheckA.sol":1497:1504  arrData */
+      0x00
+        /* "StorageCheckA.sol":1497:1516  arrData.length += 1 */
+      dup2
+      dup2
+      dup1
+      sload
+      swap1
+      pop
+      add
+      swap2
+      pop
+      dup2
+      tag_47
+      swap2
+      swap1
+      tag_48
+      jump	// in
+    tag_47:
+      pop
+        /* "StorageCheckA.sol":1582:1605  MyData storage lastData */
+      0x00
+        /* "StorageCheckA.sol":1608:1615  arrData */
+      dup1
+        /* "StorageCheckA.sol":1631:1632  1 */
+      0x01
+        /* "StorageCheckA.sol":1616:1623  arrData */
+      0x00
+        /* "StorageCheckA.sol":1616:1630  arrData.length */
+      dup1
+      sload
+      swap1
+      pop
+        /* "StorageCheckA.sol":1616:1632  arrData.length-1 */
+      sub
+        /* "StorageCheckA.sol":1608:1633  arrData[arrData.length-1] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_49
+      jumpi
+      invalid
+    tag_49:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":1582:1633  MyData storage lastData = arrData[arrData.length-1] */
+      swap1
+      pop
+        /* "StorageCheckA.sol":1667:1674  _val256 */
+      dup2
+        /* "StorageCheckA.sol":1639:1647  lastData */
+      dup2
+        /* "StorageCheckA.sol":1639:1656  lastData.serialNo */
+      0x00
+      add
+      0x00
+        /* "StorageCheckA.sol":1639:1675  lastData.serialNo = uint128(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":1707:1714  _val256 */
+      dup2
+        /* "StorageCheckA.sol":1681:1689  lastData */
+      dup2
+        /* "StorageCheckA.sol":1681:1697  lastData.ownerId */
+      0x00
+      add
+      0x10
+        /* "StorageCheckA.sol":1681:1715  lastData.ownerId = uint64(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":1748:1755  _val256 */
+      dup2
+        /* "StorageCheckA.sol":1721:1729  lastData */
+      dup2
+        /* "StorageCheckA.sol":1721:1738  lastData.maxPrice */
+      0x00
+      add
+      0x18
+        /* "StorageCheckA.sol":1721:1756  lastData.maxPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":1789:1796  _val256 */
+      dup2
+        /* "StorageCheckA.sol":1762:1770  lastData */
+      dup2
+        /* "StorageCheckA.sol":1762:1779  lastData.minPrice */
+      0x00
+      add
+      0x1c
+        /* "StorageCheckA.sol":1762:1797  lastData.minPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":1359:1802  function createWithStorage( uint256 _val256 ) public{... */
+      pop
+      pop
+      jump	// out
+        /* "StorageCheckA.sol":474:497  MyData[] public arrData */
+    tag_24:
+      0x00
+      dup2
+      dup2
+      sload
+      dup2
+      lt
+      tag_51
+      jumpi
+      invalid
+    tag_51:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+      0x00
+      swap2
+      pop
+      swap1
+      pop
+      dup1
+      0x00
+      add
+      0x00
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffffffffffffffffffff
+      and
+      swap1
+      dup1
+      0x00
+      add
+      0x10
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffffffffffff
+      and
+      swap1
+      dup1
+      0x00
+      add
+      0x18
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffff
+      and
+      swap1
+      dup1
+      0x00
+      add
+      0x1c
+      swap1
+      sload
+      swap1
+      0x0100
+      exp
+      swap1
+      div
+      0xffffffff
+      and
+      swap1
+      pop
+      dup5
+      jump	// out
+        /* "StorageCheckA.sol":1930:2225  function updateDirect( uint256 _at, uint256 _val256 ) public{... */
+    tag_27:
+        /* "StorageCheckA.sol":2012:2013  0 */
+      0x00
+        /* "StorageCheckA.sol":2005:2008  _at */
+      dup3
+        /* "StorageCheckA.sol":2005:2013  _at >= 0 */
+      lt
+      iszero
+        /* "StorageCheckA.sol":2005:2037  _at >= 0 && _at < arrData.length */
+      dup1
+      iszero
+      tag_54
+      jumpi
+      pop
+        /* "StorageCheckA.sol":2023:2030  arrData */
+      0x00
+        /* "StorageCheckA.sol":2023:2037  arrData.length */
+      dup1
+      sload
+      swap1
+      pop
+        /* "StorageCheckA.sol":2017:2020  _at */
+      dup3
+        /* "StorageCheckA.sol":2017:2037  _at < arrData.length */
+      lt
+        /* "StorageCheckA.sol":2005:2037  _at >= 0 && _at < arrData.length */
+    tag_54:
+        /* "StorageCheckA.sol":1996:2039  require( _at >= 0 && _at < arrData.length ) */
+      tag_55
+      jumpi
+      0x00
+      dup1
+      revert
+    tag_55:
+        /* "StorageCheckA.sol":2078:2085  _val256 */
+      dup1
+        /* "StorageCheckA.sol":2046:2053  arrData */
+      0x00
+        /* "StorageCheckA.sol":2054:2057  _at */
+      dup4
+        /* "StorageCheckA.sol":2046:2058  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_56
+      jumpi
+      invalid
+    tag_56:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2046:2067  arrData[_at].serialNo */
+      0x00
+      add
+      0x00
+        /* "StorageCheckA.sol":2046:2086  arrData[_at].serialNo = uint128(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2122:2129  _val256 */
+      dup1
+        /* "StorageCheckA.sol":2092:2099  arrData */
+      0x00
+        /* "StorageCheckA.sol":2100:2103  _at */
+      dup4
+        /* "StorageCheckA.sol":2092:2104  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_58
+      jumpi
+      invalid
+    tag_58:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2092:2112  arrData[_at].ownerId */
+      0x00
+      add
+      0x10
+        /* "StorageCheckA.sol":2092:2130  arrData[_at].ownerId = uint64(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2167:2174  _val256 */
+      dup1
+        /* "StorageCheckA.sol":2136:2143  arrData */
+      0x00
+        /* "StorageCheckA.sol":2144:2147  _at */
+      dup4
+        /* "StorageCheckA.sol":2136:2148  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_60
+      jumpi
+      invalid
+    tag_60:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2136:2157  arrData[_at].maxPrice */
+      0x00
+      add
+      0x18
+        /* "StorageCheckA.sol":2136:2175  arrData[_at].maxPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":2212:2219  _val256 */
+      dup1
+        /* "StorageCheckA.sol":2181:2188  arrData */
+      0x00
+        /* "StorageCheckA.sol":2189:2192  _at */
+      dup4
+        /* "StorageCheckA.sol":2181:2193  arrData[_at] */
+      dup2
+      sload
+      dup2
+      lt
+      tag_62
+      jumpi
+      invalid
+    tag_62:
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+        /* "StorageCheckA.sol":2181:2202  arrData[_at].minPrice */
+      0x00
+      add
+      0x1c
+        /* "StorageCheckA.sol":2181:2220  arrData[_at].minPrice = uint32(_val256) */
+      0x0100
+      exp
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+        /* "StorageCheckA.sol":1930:2225  function updateDirect( uint256 _at, uint256 _val256 ) public{... */
+      pop
+      pop
+      jump	// out
+        /* "StorageCheckA.sol":868:1196  function createWithMemory( uint256 _val256 ) public{... */
+    tag_30:
+        /* "StorageCheckA.sol":960:981  MyData memory newData */
+      tag_65
+      tag_41
+      jump	// in
+    tag_65:
+        /* "StorageCheckA.sol":984:1126  MyData({... */
+      mload(0x40)
+      dup1
+      0x80
+      add
+      0x40
+      mstore
+      dup1
+        /* "StorageCheckA.sol":1016:1023  _val256 */
+      dup4
+        /* "StorageCheckA.sol":984:1126  MyData({... */
+      0xffffffffffffffffffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+        /* "StorageCheckA.sol":1047:1054  _val256 */
+      dup4
+        /* "StorageCheckA.sol":984:1126  MyData({... */
+      0xffffffffffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+        /* "StorageCheckA.sol":1079:1086  _val256 */
+      dup4
+        /* "StorageCheckA.sol":984:1126  MyData({... */
+      0xffffffff
+      and
+      dup2
+      mstore
+      0x20
+      add
+        /* "StorageCheckA.sol":1111:1118  _val256 */
+      dup4
+        /* "StorageCheckA.sol":984:1126  MyData({... */
+      0xffffffff
+      and
+      dup2
+      mstore
+      pop
+        /* "StorageCheckA.sol":960:1126  MyData memory newData = MyData({... */
+      swap1
+      pop
+        /* "StorageCheckA.sol":1169:1176  arrData */
+      0x00
+        /* "StorageCheckA.sol":1183:1190  newData */
+      dup2
+        /* "StorageCheckA.sol":1169:1192  arrData.push( newData ) */
+      swap1
+      dup1
+        /* "--CODEGEN--":39:40   */
+      0x01
+        /* "--CODEGEN--":33:36   */
+      dup2
+        /* "--CODEGEN--":27:37   */
+      sload
+        /* "--CODEGEN--":23:41   */
+      add
+        /* "--CODEGEN--":57:67   */
+      dup1
+        /* "--CODEGEN--":52:55   */
+      dup3
+        /* "--CODEGEN--":45:68   */
+      sstore
+        /* "--CODEGEN--":79:89   */
+      dup1
+        /* "--CODEGEN--":72:89   */
+      swap2
+      pop
+        /* "--CODEGEN--":0:93   */
+      pop
+        /* "StorageCheckA.sol":1169:1192  arrData.push( newData ) */
+      swap1
+      0x01
+      dup3
+      sub
+      swap1
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      add
+      0x00
+      swap1
+      swap2
+      swap3
+      swap1
+      swap2
+      swap1
+      swap2
+      pop
+      0x00
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x00)
+      dup2
+      sload
+      dup2
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffffffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x20
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x10)
+      dup2
+      sload
+      dup2
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffffffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x40
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x18)
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      0x60
+      dup3
+      add
+      mload
+      dup2
+      0x00
+      add
+      exp(0x0100, 0x1c)
+      dup2
+      sload
+      dup2
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      dup4
+      0xffffffff
+      and
+      mul
+      or
+      swap1
+      sstore
+      pop
+      pop
+      pop
+      pop
+        /* "StorageCheckA.sol":868:1196  function createWithMemory( uint256 _val256 ) public{... */
+      pop
+      pop
+      jump	// out
+        /* "StorageCheckA.sol":107:3247  contract StorageCheckA{... */
+    tag_41:
+      mload(0x40)
+      dup1
+      0x80
+      add
+      0x40
+      mstore
+      dup1
+      and(0xffffffffffffffffffffffffffffffff, 0x00)
+      dup2
+      mstore
+      0x20
+      add
+      and(0xffffffffffffffff, 0x00)
+      dup2
+      mstore
+      0x20
+      add
+      and(0xffffffff, 0x00)
+      dup2
+      mstore
+      0x20
+      add
+      and(0xffffffff, 0x00)
+      dup2
+      mstore
+      pop
+      swap1
+      jump	// out
+    tag_48:
+      dup2
+      sload
+      dup2
+      dup4
+      sstore
+      dup2
+      dup2
+      gt
+      iszero
+      tag_67
+      jumpi
+      dup2
+      dup4
+      0x00
+      mstore
+      keccak256(0x00, 0x20)
+      swap2
+      dup3
+      add
+      swap2
+      add
+      tag_68
+      swap2
+      swap1
+      tag_69
+      jump	// in
+    tag_68:
+    tag_67:
+      pop
+      pop
+      pop
+      jump	// out
+    tag_69:
+      tag_70
+      swap2
+      swap1
+    tag_71:
+      dup1
+      dup3
+      gt
+      iszero
+      tag_72
+      jumpi
+      0x00
+      dup1
+      dup3
+      add
+      exp(0x0100, 0x00)
+      dup2
+      sload
+      swap1
+      0xffffffffffffffffffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      sstore
+      0x00
+      dup3
+      add
+      exp(0x0100, 0x10)
+      dup2
+      sload
+      swap1
+      0xffffffffffffffff
+      mul
+      not
+      and
+      swap1
+      sstore
+      0x00
+      dup3
+      add
+      exp(0x0100, 0x18)
+      dup2
+      sload
+      swap1
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      sstore
+      0x00
+      dup3
+      add
+      exp(0x0100, 0x1c)
+      dup2
+      sload
+      swap1
+      0xffffffff
+      mul
+      not
+      and
+      swap1
+      sstore
+      pop
+      0x01
+      add
+      jump(tag_71)
+    tag_72:
+      pop
+      swap1
+      jump
+    tag_70:
+      swap1
+      jump	// out
+
+    auxdata: 0xa265627a7a72315820b5c0fa353510bba53d2b1a9cba2ad5806be5c3de6c6c66e35406090df12ed25564736f6c63430005100032
+}
