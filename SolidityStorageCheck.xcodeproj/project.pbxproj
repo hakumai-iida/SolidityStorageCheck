@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		588C4EF4A3358151CAF74678 /* Pods_SolidityStorageCheck.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45C88F544DA657E525305A8 /* Pods_SolidityStorageCheck.framework */; };
+		E71D31302419EB290011A109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D312F2419EB290011A109 /* AppDelegate.swift */; };
+		E71D31322419EB290011A109 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E71D31312419EB290011A109 /* GameScene.sks */; };
+		E71D31342419EB290011A109 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E71D31332419EB290011A109 /* Actions.sks */; };
+		E71D31362419EB290011A109 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D31352419EB290011A109 /* GameScene.swift */; };
+		E71D31382419EB290011A109 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D31372419EB290011A109 /* GameViewController.swift */; };
+		E71D313B2419EB290011A109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71D31392419EB290011A109 /* Main.storyboard */; };
+		E71D313D2419EB2B0011A109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71D313C2419EB2B0011A109 /* Assets.xcassets */; };
+		E71D31402419EB2B0011A109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71D313E2419EB2B0011A109 /* LaunchScreen.storyboard */; };
+		E71D314A2419EC220011A109 /* StorageCheckA.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D31472419EC210011A109 /* StorageCheckA.swift */; };
+		E71D314B2419EC220011A109 /* TestStorageCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D31482419EC220011A109 /* TestStorageCheck.swift */; };
+		E71D314C2419EC220011A109 /* Web3Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D31492419EC220011A109 /* Web3Helper.swift */; };
+		E71D314F2419F72C0011A109 /* StorageCheckB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D314D2419F72C0011A109 /* StorageCheckB.swift */; };
+		E71D31502419F72C0011A109 /* StorageCheckC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71D314E2419F72C0011A109 /* StorageCheckC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9F378DFCE6A3CAD7D79AAA3 /* Pods-SolidityStorageCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolidityStorageCheck.release.xcconfig"; path = "Target Support Files/Pods-SolidityStorageCheck/Pods-SolidityStorageCheck.release.xcconfig"; sourceTree = "<group>"; };
+		AF3D7223AEE4CC680A0E6608 /* Pods-SolidityStorageCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SolidityStorageCheck.debug.xcconfig"; path = "Target Support Files/Pods-SolidityStorageCheck/Pods-SolidityStorageCheck.debug.xcconfig"; sourceTree = "<group>"; };
+		C45C88F544DA657E525305A8 /* Pods_SolidityStorageCheck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SolidityStorageCheck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71D312C2419EB290011A109 /* SolidityStorageCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolidityStorageCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71D312F2419EB290011A109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E71D31312419EB290011A109 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E71D31332419EB290011A109 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E71D31352419EB290011A109 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E71D31372419EB290011A109 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E71D313A2419EB290011A109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E71D313C2419EB2B0011A109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E71D313F2419EB2B0011A109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E71D31412419EB2B0011A109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E71D31472419EC210011A109 /* StorageCheckA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageCheckA.swift; sourceTree = "<group>"; };
+		E71D31482419EC220011A109 /* TestStorageCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStorageCheck.swift; sourceTree = "<group>"; };
+		E71D31492419EC220011A109 /* Web3Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3Helper.swift; sourceTree = "<group>"; };
+		E71D314D2419F72C0011A109 /* StorageCheckB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageCheckB.swift; sourceTree = "<group>"; };
+		E71D314E2419F72C0011A109 /* StorageCheckC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageCheckC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E71D31292419EB290011A109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				588C4EF4A3358151CAF74678 /* Pods_SolidityStorageCheck.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		576B1C477BCC74A15749CE22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45C88F544DA657E525305A8 /* Pods_SolidityStorageCheck.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F891319592EBADBD2894B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF3D7223AEE4CC680A0E6608 /* Pods-SolidityStorageCheck.debug.xcconfig */,
+				A9F378DFCE6A3CAD7D79AAA3 /* Pods-SolidityStorageCheck.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E71D31232419EB290011A109 = {
+			isa = PBXGroup;
+			children = (
+				E71D312E2419EB290011A109 /* SolidityStorageCheck */,
+				E71D312D2419EB290011A109 /* Products */,
+				68F891319592EBADBD2894B9 /* Pods */,
+				576B1C477BCC74A15749CE22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E71D312D2419EB290011A109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E71D312C2419EB290011A109 /* SolidityStorageCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E71D312E2419EB290011A109 /* SolidityStorageCheck */ = {
+			isa = PBXGroup;
+			children = (
+				E71D31482419EC220011A109 /* TestStorageCheck.swift */,
+				E71D31472419EC210011A109 /* StorageCheckA.swift */,
+				E71D314D2419F72C0011A109 /* StorageCheckB.swift */,
+				E71D314E2419F72C0011A109 /* StorageCheckC.swift */,
+				E71D31492419EC220011A109 /* Web3Helper.swift */,
+				E71D312F2419EB290011A109 /* AppDelegate.swift */,
+				E71D31312419EB290011A109 /* GameScene.sks */,
+				E71D31332419EB290011A109 /* Actions.sks */,
+				E71D31352419EB290011A109 /* GameScene.swift */,
+				E71D31372419EB290011A109 /* GameViewController.swift */,
+				E71D31392419EB290011A109 /* Main.storyboard */,
+				E71D313C2419EB2B0011A109 /* Assets.xcassets */,
+				E71D313E2419EB2B0011A109 /* LaunchScreen.storyboard */,
+				E71D31412419EB2B0011A109 /* Info.plist */,
+			);
+			path = SolidityStorageCheck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E71D312B2419EB290011A109 /* SolidityStorageCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E71D31442419EB2B0011A109 /* Build configuration list for PBXNativeTarget "SolidityStorageCheck" */;
+			buildPhases = (
+				9835A24AE930886650DFD74C /* [CP] Check Pods Manifest.lock */,
+				E71D31282419EB290011A109 /* Sources */,
+				E71D31292419EB290011A109 /* Frameworks */,
+				E71D312A2419EB290011A109 /* Resources */,
+				018EF95AA5D82348E810B702 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolidityStorageCheck;
+			productName = SolidityStorageCheck;
+			productReference = E71D312C2419EB290011A109 /* SolidityStorageCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E71D31242419EB290011A109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "飯田白米";
+				TargetAttributes = {
+					E71D312B2419EB290011A109 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E71D31272419EB290011A109 /* Build configuration list for PBXProject "SolidityStorageCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E71D31232419EB290011A109;
+			productRefGroup = E71D312D2419EB290011A109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E71D312B2419EB290011A109 /* SolidityStorageCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E71D312A2419EB290011A109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71D313B2419EB290011A109 /* Main.storyboard in Resources */,
+				E71D31322419EB290011A109 /* GameScene.sks in Resources */,
+				E71D313D2419EB2B0011A109 /* Assets.xcassets in Resources */,
+				E71D31402419EB2B0011A109 /* LaunchScreen.storyboard in Resources */,
+				E71D31342419EB290011A109 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018EF95AA5D82348E810B702 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolidityStorageCheck/Pods-SolidityStorageCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SolidityStorageCheck/Pods-SolidityStorageCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SolidityStorageCheck/Pods-SolidityStorageCheck-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9835A24AE930886650DFD74C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SolidityStorageCheck-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E71D31282419EB290011A109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E71D31362419EB290011A109 /* GameScene.swift in Sources */,
+				E71D31382419EB290011A109 /* GameViewController.swift in Sources */,
+				E71D314C2419EC220011A109 /* Web3Helper.swift in Sources */,
+				E71D314B2419EC220011A109 /* TestStorageCheck.swift in Sources */,
+				E71D31502419F72C0011A109 /* StorageCheckC.swift in Sources */,
+				E71D314A2419EC220011A109 /* StorageCheckA.swift in Sources */,
+				E71D314F2419F72C0011A109 /* StorageCheckB.swift in Sources */,
+				E71D31302419EB290011A109 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E71D31392419EB290011A109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71D313A2419EB290011A109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E71D313E2419EB2B0011A109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E71D313F2419EB2B0011A109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E71D31422419EB2B0011A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E71D31432419EB2B0011A109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E71D31452419EB2B0011A109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3D7223AEE4CC680A0E6608 /* Pods-SolidityStorageCheck.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolidityStorageCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolidityStorageCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E71D31462419EB2B0011A109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F378DFCE6A3CAD7D79AAA3 /* Pods-SolidityStorageCheck.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2J92745VF;
+				INFOPLIST_FILE = SolidityStorageCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.hakumai.SolidityStorageCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E71D31272419EB290011A109 /* Build configuration list for PBXProject "SolidityStorageCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71D31422419EB2B0011A109 /* Debug */,
+				E71D31432419EB2B0011A109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E71D31442419EB2B0011A109 /* Build configuration list for PBXNativeTarget "SolidityStorageCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E71D31452419EB2B0011A109 /* Debug */,
+				E71D31462419EB2B0011A109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E71D31242419EB290011A109 /* Project object */;
+}
